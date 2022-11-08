@@ -83,7 +83,6 @@ body{
 .header-contacts .link:focus,
 .header-contacts .link:hover{
     color: var(--accent-text-color);
-    fill: var(--accent-text-color);
 }
 .header-nav-list .link.current{
     color: var(--accent-text-color);
@@ -112,6 +111,10 @@ body{
 }
 .header-item .icon{
     fill: var(--primary-text-color);
+}
+.header-contacts .link:focus .icon,
+.header-contacts .link:hover .icon{
+    fill: var(--accent-text-color);
 }
 /* main */
 .hero{
@@ -216,8 +219,6 @@ body{
 /* Наша команда */
 .team{
     background-color: var(--primary-bg-color);
-    max-width: 1600px;
-    margin: 0 auto;
 }
 .team li{
     background-color: var(--primary-white-color);
@@ -299,9 +300,7 @@ body{
 }
 /* footer */
 footer{
-    background-color: #2F303A;
-    margin: 0 auto;
-    max-width: 1600px;  
+    background-color: #2F303A;  
 }
 .footer-logo-part{
     color: var(--primary-white-color);
